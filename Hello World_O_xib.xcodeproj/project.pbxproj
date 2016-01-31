@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3F0190A1C45745600CD57F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F019091C45745600CD57F3 /* main.m */; };
 		D3F0190D1C45745600CD57F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F0190C1C45745600CD57F3 /* AppDelegate.m */; };
-		D3F019101C45745600CD57F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F0190F1C45745600CD57F3 /* ViewController.m */; };
-		D3F019131C45745600CD57F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F019111C45745600CD57F3 /* Main.storyboard */; };
 		D3F019151C45745600CD57F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F019141C45745600CD57F3 /* Assets.xcassets */; };
-		D3F019181C45745600CD57F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F019161C45745600CD57F3 /* LaunchScreen.storyboard */; };
 		D3F019231C45745600CD57F3 /* Hello_World_O_xibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F019221C45745600CD57F3 /* Hello_World_O_xibTests.m */; };
 		D3F0192E1C45745600CD57F3 /* Hello_World_O_xibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F0192D1C45745600CD57F3 /* Hello_World_O_xibUITests.m */; };
+		D3F0193D1C45750F00CD57F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F0193C1C45750F00CD57F3 /* ViewController.m */; };
+		D3F019421C4575AF00CD57F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F019411C4575AF00CD57F3 /* main.m */; };
+		D3F36D971C46A72B002D6AA2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F36D951C46A72B002D6AA2 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +35,9 @@
 
 /* Begin PBXFileReference section */
 		D3F019051C45745600CD57F3 /* Hello World_O_xib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World_O_xib.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3F019091C45745600CD57F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3F0190B1C45745600CD57F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3F0190C1C45745600CD57F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3F0190E1C45745600CD57F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3F0190F1C45745600CD57F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D3F019121C45745600CD57F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3F019141C45745600CD57F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D3F019171C45745600CD57F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3F019191C45745600CD57F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3F0191E1C45745600CD57F3 /* Hello World_O_xibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello World_O_xibTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F019221C45745600CD57F3 /* Hello_World_O_xibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_World_O_xibTests.m; sourceTree = "<group>"; };
@@ -51,6 +45,10 @@
 		D3F019291C45745600CD57F3 /* Hello World_O_xibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello World_O_xibUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F0192D1C45745600CD57F3 /* Hello_World_O_xibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_World_O_xibUITests.m; sourceTree = "<group>"; };
 		D3F0192F1C45745600CD57F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F0193B1C45750200CD57F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3F0193C1C45750F00CD57F3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3F019411C4575AF00CD57F3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F36D961C46A72B002D6AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +101,10 @@
 			children = (
 				D3F0190B1C45745600CD57F3 /* AppDelegate.h */,
 				D3F0190C1C45745600CD57F3 /* AppDelegate.m */,
-				D3F0190E1C45745600CD57F3 /* ViewController.h */,
-				D3F0190F1C45745600CD57F3 /* ViewController.m */,
-				D3F019111C45745600CD57F3 /* Main.storyboard */,
+				D3F0193B1C45750200CD57F3 /* ViewController.h */,
+				D3F0193C1C45750F00CD57F3 /* ViewController.m */,
+				D3F36D951C46A72B002D6AA2 /* ViewController.xib */,
 				D3F019141C45745600CD57F3 /* Assets.xcassets */,
-				D3F019161C45745600CD57F3 /* LaunchScreen.storyboard */,
 				D3F019191C45745600CD57F3 /* Info.plist */,
 				D3F019081C45745600CD57F3 /* Supporting Files */,
 			);
@@ -117,7 +114,7 @@
 		D3F019081C45745600CD57F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3F019091C45745600CD57F3 /* main.m */,
+				D3F019411C4575AF00CD57F3 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,9 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F019181C45745600CD57F3 /* LaunchScreen.storyboard in Resources */,
+				D3F36D971C46A72B002D6AA2 /* ViewController.xib in Resources */,
 				D3F019151C45745600CD57F3 /* Assets.xcassets in Resources */,
-				D3F019131C45745600CD57F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F019101C45745600CD57F3 /* ViewController.m in Sources */,
+				D3F0193D1C45750F00CD57F3 /* ViewController.m in Sources */,
+				D3F019421C4575AF00CD57F3 /* main.m in Sources */,
 				D3F0190D1C45745600CD57F3 /* AppDelegate.m in Sources */,
-				D3F0190A1C45745600CD57F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +304,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3F019111C45745600CD57F3 /* Main.storyboard */ = {
+		D3F36D951C46A72B002D6AA2 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D3F019121C45745600CD57F3 /* Base */,
+				D3F36D961C46A72B002D6AA2 /* Base */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D3F019161C45745600CD57F3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3F019171C45745600CD57F3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -496,6 +484,7 @@
 				D3F019341C45745600CD57F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3F019351C45745600CD57F3 /* Build configuration list for PBXNativeTarget "Hello World_O_xibTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +493,7 @@
 				D3F019371C45745600CD57F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3F019381C45745600CD57F3 /* Build configuration list for PBXNativeTarget "Hello World_O_xibUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +502,7 @@
 				D3F0193A1C45745600CD57F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
