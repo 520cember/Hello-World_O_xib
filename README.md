@@ -1,5 +1,5 @@
 # Hello-World_O_xib
-ios： object c and xib布局实现的hello world入门级app
+object c and xib布局实现的hello world
 
 新浪云平台Sina App Engine(SAE)，是由新浪公司开发和运营的开放云计算平台的核心组成部分，国内第一家公有云计算平台，可以为网站开发者，App开发者提供稳定、快捷、透明、可控的服务化的平台，并且减少开发者的开发和维护成本。
 
